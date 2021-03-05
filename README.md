@@ -1,8 +1,6 @@
-# Basic Transform Replicator
+# Basic Transform Replicator for Unreal Engine 4.26
 Basic Transform Replicator sends your actors transform to every client and smooths the location difference between server updates.
 Also tries its best to replicate physics but please note UE4 is not really capable of physics replication.
-
-Currently built for 4.26
 
 Can not be used as movement component. Does not quite work well for AutonomousProxies, since there isn't prediction and reconciliation is implemented.
 
